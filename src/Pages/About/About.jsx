@@ -13,7 +13,7 @@ const About = () => {
         <h1 className="text-4xl font-bold text-white text-left">About</h1>
         <p className="text-2xl font-semibold text-white space-x-3 mt-8 text-left">
           I m Abu Jafor ,I m a WebDeveloper . I was learning web development by
-          programin hiro with jhunkar mjahbub. I m a very friendly and
+          programin hiro with jhunkar mahbub. I m a very friendly and
           team-working person. I am very comfortable working with development by
           Javascript. My vision web development industry-leading position after
           3/4 years .javaScript my Programin mother tongue.

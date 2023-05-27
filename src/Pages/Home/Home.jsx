@@ -29,7 +29,7 @@ const Home = () => {
         <div className="md:mt-52 ">
           <img
             className="w-96 h-96 rounded-full opacity-50"
-            src="../../../src/assets/profile-removebg-preview.png"
+            src="https://i.ibb.co/tJQ0tFj/profile-removebg-preview.png"
             alt=""
           />
         </div>

@@ -1,0 +1,7 @@
+.bg-img {
+  background: linear-gradient(to right, #000000d0, #2c292990),
+    url("https://learn.g2crowd.com/hubfs/iStock-1047259374.jpg");
+
+  background-size: cover;
+  background-attachment: fixed;
+}

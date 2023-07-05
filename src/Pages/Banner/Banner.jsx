@@ -7,7 +7,7 @@ const Banner = () => {
       <Helmet>
         <title>Home || Abu Jafor</title>
       </Helmet>
-      <div className="bg-[#050816] h-[90vh] text-center">
+      <div id="banar" className="bg-[#050816]  text-center pb-10 md:h-[90vh]">
         <div>
           <div className=" pt-44  mx-16">
             <h1 className="text-6xl font-bold mb-4 text-white">
@@ -29,12 +29,17 @@ const Banner = () => {
               </a>
             </div> */}
             <button className="btn btn-outline  px-6 text-white  text-2xl font-semibold">
-              <a href="https://drive.google.com/file/d/1-qJ7KhCbyWDHbdwuxB_GI0vNtZ5sGfV-/view?usp=sharing">
+              <a
+                href="https://drive.google.com/file/d/1-qJ7KhCbyWDHbdwuxB_GI0vNtZ5sGfV-/view?usp=sharing"
+                download={
+                  "https://drive.google.com/file/d/1-qJ7KhCbyWDHbdwuxB_GI0vNtZ5sGfV-/view"
+                }
+              >
                 {" "}
                 Resume
               </a>
             </button>
-            <button className="btn px-6 py-2 mx-4 text-2xl font-semibold text-white ">
+            <button className="btn my-2 px-6 py-2 mx-4 text-2xl font-semibold text-white ">
               Hire Me
             </button>
           </div>

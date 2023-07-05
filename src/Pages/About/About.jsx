@@ -8,8 +8,8 @@ const About = () => {
       <Helmet>
         <title>Home || Abu Jafor</title>
       </Helmet>
-      <div className="bg-img">
-        <div className="py-8 px-6  text-white text-center">
+      <div className="bg-img pt-10" id="about">
+        <div data-aos="fade-up" className="py-8 px-6  text-white text-center">
           <h1 className="text-center font-bold text-6xl mb-4">About section</h1>
           <h2 className="text-3xl font-semibold text-[#E09132]">
             A bit about me
@@ -21,7 +21,10 @@ const About = () => {
             JS , Node JS , MongoDB and Express JS is my Hobby .
           </p>
         </div>
-        <div className="py-8 px-6  text-white text-center">
+        <div
+          data-aos="zoom-out-up"
+          className="py-8 px-6  text-white text-center"
+        >
           <h1 className="text-3xl font-semibold text-[#E09132]">
             Technologies and Tools
           </h1>
@@ -32,8 +35,8 @@ const About = () => {
           </p>
         </div>
 
-        <div className="text-white flex text-center py-8">
-          <div className="w-1/2 text-center">
+        <div className="text-white md:flex text-center py-8">
+          <div data-aos="fade-left" className="md:w-1/2 text-center">
             <h1 className="text-4xl font-bold  ">Skill</h1>
             <div className="grid grid-cols-2 gap-4 px-10 py-4">
               <div className="border-2 py-1 px-8 border-orange-500 flex">
@@ -102,7 +105,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className=" w-1/2 text-center">
+          <div data-aos="fade-right" className=" md:w-1/2 text-center">
             <h1 className="text-4xl font-bold  ">Tools</h1>
             <div className="grid grid-cols-2 gap-4 px-10 py-4">
               <div className="border-2 py-1 px-8 border-orange-500 flex">

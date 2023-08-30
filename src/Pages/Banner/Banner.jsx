@@ -29,12 +29,7 @@ const Banner = () => {
               </a>
             </div> */}
             <button className="btn btn-outline  px-6 text-white  text-2xl font-semibold">
-              <a
-                href="https://drive.google.com/file/d/1-qJ7KhCbyWDHbdwuxB_GI0vNtZ5sGfV-/view?usp=sharing"
-                download={
-                  "https://drive.google.com/file/d/1-qJ7KhCbyWDHbdwuxB_GI0vNtZ5sGfV-/view"
-                }
-              >
+              <a href="https://drive.google.com/file/d/1Ucnb_0_fBEGxRT-_QqWM_tAlnt2KozEn/view?usp=sharing">
                 {" "}
                 Resume
               </a>

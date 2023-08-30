@@ -49,7 +49,7 @@ const About = () => {
               </div>
               <div className="border-2 py-2 px-8 border-orange-500 flex">
                 <img
-                  src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/css-icon.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
                   alt=""
                   className="w-[40px] h-[40px]"
                 />

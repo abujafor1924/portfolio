@@ -37,7 +37,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
-      <div className="max-w-screen-2xl px-10">
+      <div className="w-[100%] mx-auto">
         <RouterProvider router={router} />
       </div>
     </HelmetProvider>

@@ -4,38 +4,32 @@ import { BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <div id="contact" className="md:flex ">
-      <div className="md:w-1/2 bg-slate-200 rounded px-24 py-10">
+      <div className="md:w-1/2 w-[100%] bg-slate-200 rounded md:px-24 pl-4 py-10">
         <h1 className="text-2xl font-semibold ">
           Say <span className="text-[#E09132]">Hi,,,,,</span>{" "}
         </h1>
         <div>
           <h1 className="text-xl font-normal py-2">Name</h1>
-          <input
-            type="text"
-            placeholder="Name"
-            className="input w-full max-w-xs"
-          />
+          <input type="text" placeholder="Name" className="input w-full " />
         </div>
         <div>
           <h1 className="text-xl font-normal py-2">Email</h1>
-          <input
-            type="email"
-            placeholder="Email"
-            className="input w-full max-w-xs"
-          />
+          <input type="email" placeholder="Email" className="input w-full " />
         </div>
         <div>
-          <h1 className="text-xl font-normal py-2">Message</h1>
+          <h1 className="text-xl font-normal py-2 ">Message</h1>
           <textarea
             name="Message"
             id=""
             cols="40"
             rows="5"
-            className="rounded"
+            className="rounded w-full ml-1"
           ></textarea>
         </div>
         <div>
-          <button className="btn btn-outline btn-ghost mt-4">Submit</button>
+          <button className="btn btn-outline btn-ghost mt-4 ml-3">
+            Submit
+          </button>
         </div>
       </div>
       <div className="md:w-1/2 text-center mt-24">
